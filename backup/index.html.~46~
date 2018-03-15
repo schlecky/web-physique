@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+
+	<link rel="SHORTCUT ICON" href="logo.ico">
+  <link rel="stylesheet" href="style.css" title="Style"/> 
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<title>Physique-Chimie</title>
+  </head>
+  <body>
+    <!-- Piwik Image Tracker -->
+    <!--<img src="http://schlecky.chickenkiller.com/piwik/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" /> -->
+<!-- End Piwik -->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://schlecky.chickenkiller.com/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+	<section>
+	  <div class="positioner">
+		<ul id=menu>
+		  <li><a href=#Colles>Colle</a></li>
+		  <li><a href=#Cours>Cours</a></li>
+		  <li><a href=#TD>TD</a></li>
+		  <li><a href=#Devoirs>Devoirs</a></li>
+		  <li><a href=#TP>TP</a></li>
+		  <li><a href=#Info>Info</a></li>
+		</ul>
+	  </div>
+	  <h1> CPGE TSI 1ère année <span class=space>&ndash;</span> Physique-Chimie <span class=sstitre>Lycée les lombards, Troyes</span> </h1>
+	  <p> <span class=att>Attention</span>, les énoncés et corrigés disponibles ici comportent très probablement des erreurs, à utiliser avec discernement&nbsp;!</p>
+
+	  <h2 id=Colles> Colles </h2>
+    <h4>Semaine 15 (du 22/01/2018 au 26/01/2018) </h4> <p><a href="fichiers/sem15.pdf"> Programme </a></p>
+    
+    
+    
+    <h2 id=Cours> Cours </h2>
+	  <h3>Signaux physiques</h3>
+	  <ul>
+		<li>I &ndash; Ondes
+		  <a href="fichiers/cours/01-ondes.pdf">cours</a><a href="fichiers/cours/01-ondes-memento.pdf">mémento</a>
+		</li>
+     	<li>II &ndash; Optique géométrique
+        <a href="fichiers/cours/02-optique_geo.pdf">cours</a><a href="fichiers/cours/02-optique-memento.pdf">mémento</a>
+		</li>
+     	<li>III &ndash; Physique quantique
+		  <a href="fichiers/cours/03-photon.pdf">cours</a><a href="fichiers/cours/03-quantique-memento.pdf">mémento</a>
+		</li>
+     	<li>IV &ndash; Circuits électriques
+		  <a href="fichiers/cours/04-circuits_elec.pdf">cours</a><a href="fichiers/cours/04-circuits_elec-memento.pdf">mémento</a>
+		</li>
+     	<li>V &ndash; Circuits linéaires du premier ordre
+		  <a href="fichiers/cours/05-circuits_ordre1.pdf">cours</a><a href="fichiers/cours/05-circuits_ordre1-memento.pdf">mémento</a>
+		</li>
+		<li>VI &ndash; Circuits linéaires du second ordre, oscillateurs, filtres.
+		  <a href="fichiers/cours/06-ordre2_oscillateurs.pdf">cours</a><a href="fichiers/cours/06-oscillateurs-memento.pdf">mémento</a>
+		</li>
+	  </ul>
+		<h3>Architecture de la matière</h3>
+		<ul>
+		  <li>I &ndash; Classification périodique des éléments
+			<a href="fichiers/cours/07-classification_periodique.pdf">cours (scan)</a><a href="fichiers/cours/07-classification_periodique-memento.pdf">mémento</a>
+		  </li>
+		  <li>II &ndash; Molécules et cristaux
+			<a href="fichiers/cours/08-molecules_cristaux.pdf">cours (scan)</a>
+		  </li>
+      </ul>
+		<h3>Transformation de la matière</h3>
+		<ul>
+		   <li>I &ndash; La transformation de la matière
+			<a href="fichiers/cours/09-transfo_matiere.pdf">cours (scan)</a>
+		   </li>
+		   <li>II &ndash; Cinétique chimique
+			<a href="fichiers/cours/10-cinetique.pdf">cours (scan)</a>
+		   </li>
+		</ul>
+		<h3>Mécanique</h3>
+		<ul>
+		  <li>I &ndash; Cinématique
+			<a href="fichiers/cours/11-cinematique.pdf">cours (scan)</a>
+		  </li>
+		  <li>II &ndash; Mécanique newtonienne
+			<a href="fichiers/cours/12-mecanique_newtonienne.pdf">cours (scan)</a>
+		  </li>
+		  <li>II &ndash; Solides en rotation
+			<a href="fichiers/cours/13-rotation.pdf">cours (scan)</a>
+		  </li>
+		</ul>
+		<h3>Induction</h3>
+		<ul>
+		  <li>I &ndash; Induction
+			<a href="fichiers/cours/14-induction.pdf">cours (scan)</a>
+		  </li>
+		</ul>
+		<h3>Thermodynamique</h3>
+		<ul>
+		  <li>I &ndash; Thermodynamique
+			<a href="fichiers/cours/15-thermodynamique.pdf">cours (scan)</a>
+		  </li>
+		</ul>
+		<h3>Chimie des solutions</h3>
+		<ul>
+		  <li>I &ndash; Chimie des solutions
+			<a href="fichiers/cours/16-chimie_solutions.pdf">cours (scan)</a>
+		  </li>
+		</ul>
+		
+	  <h2 id=TD> TD </h2>
+	  <ul>
+		<li>TD1 &ndash; Ondes
+		  <a href="fichiers/td1_ondes.pdf">Énoncé</a>
+		  <a href="fichiers/td1_ondes_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD2 &ndash; Optique géométrique
+		  <a href="fichiers/td2_opt_geo.pdf">Énoncé</a>
+		  <a href="fichiers/td2_opt_geo_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD3 &ndash; Quantique
+		  <a href="fichiers/td3_photon.pdf">Énoncé</a>
+		  <a href="fichiers/td3_photon_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD4 &ndash; Circuits électrique dans l'ARQS
+		  <a href="fichiers/td4_elec_ARQS.pdf">Énoncé</a>
+		  <a href="fichiers/td4_elec_ARQS_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD5 &ndash; Circuits linéaires du premier ordre
+		  <a href="fichiers/td5_circuits_prem_ordre.pdf">Énoncé</a>
+		  <a href="fichiers/td5_circuits_prem_ordre_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD6 &ndash; Circuits linéaires du deuxième ordre
+		  <a href="fichiers/td6_circuits_deux_ordre.pdf">Énoncé</a>
+		  <a href="fichiers/td6_circuits_deux_ordre_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD7 &ndash; Classification périodique
+		  <a href="fichiers/td7_architecture_matiere.pdf">Énoncé</a>
+		  <a href="fichiers/td7_architecture_matiere_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD8 &ndash; Molécules et cristaux
+		  <a href="fichiers/td8_molecules_cristaux.pdf">Énoncé</a>
+		  <a href="fichiers/td8_molecules_cristaux_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD9 &ndash; Transformation chimique
+		  <a href="fichiers/td9_transformation_chimique.pdf">Énoncé</a>
+		  <a href="fichiers/td9_transformation_chimique_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD10 &ndash; Cinétique chimique
+		  <a href="fichiers/td10_cinetique_chimique.pdf">Énoncé</a>
+		  <a href="fichiers/td10_cinetique_chimique_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD11 &ndash; Cinématique
+		  <a href="fichiers/td11_cinematique.pdf">Énoncé</a>
+		  <a href="fichiers/td11_cinematique_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD12 &ndash; Dynamique
+		  <a href="fichiers/td12_dynamique.pdf">Énoncé</a>
+		  <a href="fichiers/td12_dynamique_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD13 &ndash; Solide en rotation
+		  <a href="fichiers/td13_solide_rotation.pdf">Énoncé</a>
+		  <a href="fichiers/td13_solide_rotation_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD14 &ndash; Champ magnétique et force de Laplace
+		  <a href="fichiers/td14_magnetisme_laplace.pdf">Énoncé</a>
+		  <a href="fichiers/td14_magnetisme_laplace_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD15 &ndash; Induction
+		  <a href="fichiers/td15_induction.pdf">Énoncé</a>
+		  <a href="fichiers/td15_induction_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD16 &ndash; Thermodynamique 1
+		  <a href="fichiers/td16_thermodynamique1.pdf">Énoncé</a>
+		  <a href="fichiers/td16_thermodynamique1_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD17 &ndash; Thermodynamique 2
+		  <a href="fichiers/td17_thermodynamique2.pdf">Énoncé</a>
+		  <a href="fichiers/td17_thermodynamique2_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD18 &ndash; Oxydoreduction
+		  <a href="fichiers/td18_oxydoreduction.pdf">Énoncé</a>
+		  <a href="fichiers/td18_oxydoreduction_corr.pdf">Corrigé</a>
+		</li>
+		<li>TD19 &ndash; Acides-bases, précipitation
+		  <a href="fichiers/td19_acides_precipitation.pdf">Énoncé</a>
+		  <a href="fichiers/td19_acides_precipitation_corr.pdf">Corrigé</a>
+		</li>
+	  </ul>
+	  <h2 id=Devoirs> Devoirs </h2>
+	  <div class="collapsed-list">
+	  <h3> 2015-2016 [+]</h3>
+	  <ul>
+		<li>DS1 &ndash; Ondes
+		  <a href="fichiers/2015-2016/ds1_ondes.pdf">Énoncé</a>
+		  <a href="fichiers/2015-2016/ds1_ondes_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS2 &ndash; Ondes et optique géométrique
+		  <a href="fichiers/2015-2016/ds2_optique_ondes.pdf">Énoncé</a>
+		  <a href="fichiers/2015-2016/ds2_optique_ondes_corr.pdf">Corrigé</a>
+		</li>
+        <li>DS3 &ndash; Optique et quantique
+		  <a href="fichiers/2015-2016/ds3_optique_quantique.pdf">Énoncé</a>
+		  <a href="fichiers/2015-2016/ds3_optique_quantique_corr.pdf">Corrigé</a>
+		</li>
+        <li>DM1 &ndash; Charge d'un condensateur
+		  <a href="fichiers/2015-2016/dm1_elec_transitoire.pdf">Énoncé</a>
+		  <a href="fichiers/2015-2016/dm1_elec_transitoire_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS4 &ndash; Électricité
+		  <a href="fichiers/2015-2016/ds4_elec_transitoire.pdf">Énoncé</a>
+		  <a href="fichiers/2015-2016/ds4_elec_transitoire_corr.pdf">Corrigé</a>
+		</li>
+		<li>DM2 &ndash; Accéléromètre
+		   <a href="fichiers/2015-2016/dm2_accelerometre.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/dm2_accelerometre_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS5 &ndash; Chimie et électricité
+		   <a href="fichiers/2015-2016/ds5_elec_atomes.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/ds5_elec_atomes_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS6 &ndash; Chimie (et un petit filtre)
+		   <a href="fichiers/2015-2016/ds6_chimie.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/ds6_chimie_corr.pdf">Corrigé</a>
+		</li>
+		<li>DM3 &ndash; Cinétique chimique
+		   <a href="fichiers/2015-2016/dm3_chimie.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/dm3_chimie_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS7 &ndash; Mécanique
+		   <a href="fichiers/2015-2016/ds7_meca.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/ds7_meca_corr.pdf">Corrigé</a>
+		</li>
+		<li>DM4 &ndash; Pendule pesant
+		   <a href="fichiers/2015-2016/dm4_tmc.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/dm4_tmc_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS8 &ndash; Mécanique et induction
+		   <a href="fichiers/2015-2016/ds8_meca_induction.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/ds8_meca_induction_corr.pdf">Corrigé</a>
+		</li>
+		<li>DS9 &ndash; Induction et Thermodynamique
+		   <a href="fichiers/2015-2016/ds9_induction_thermo.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/ds9_induction_thermo_corr.pdf">Corrigé</a>
+		</li>
+		<li>Concours Blanc
+		   <a href="fichiers/2015-2016/concours_blanc.pdf">Énoncé</a>
+		   <a href="fichiers/2015-2016/concours_blanc_corr.pdf">Corrigé</a>
+		</li>
+	  </ul>
+	  </div>
+    <div class="collapsed-list">
+	  <h3> 2016-2017 [+]</h3>
+	  <ul>
+		<li>DS1 &ndash; Ondes <a href="fichiers/2016-2017/ds1_ondes.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/ds1_ondes_corr.pdf">Corrigé</a>
+		</li>
+    <li>DS2 &ndash; Optique et quantique <a href="fichiers/2016-2017/ds2_optique_quantique.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/ds2_optique_quantique_corr.pdf">Corrigé</a>
+		</li>
+    <li>DM1 &ndash; L'ARQS <a href="fichiers/2016-2017/dm1_arqs.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/dm1_arqs_corr.pdf">Corrigé</a>
+		</li>
+    <li>DS3 &ndash; Électricité <a href="fichiers/2016-2017/ds3_elec.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/ds3_elec_corr.pdf">Corrigé</a>
+		</li>
+    <li>DM2 &ndash; Régime transitoire <a href="fichiers/2016-2017/dm2_elec_transitoire.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/dm2_elec_transitoire_corr.pdf">Corrigé</a>
+		</li>
+    <li>DS4 &ndash; Électricité et Chimie <a href="fichiers/2016-2017/ds4_elec_chimie.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/ds4_elec_chimie_corr.pdf">Corrigé</a>
+		</li>
+    <li>DS5 &ndash; Chimie <a href="fichiers/2016-2017/ds5_chimie.pdf">Énoncé</a>
+<a href="fichiers/2016-2017/ds5_chimie_corr.pdf">Corrigé</a>
+		</li>
+    <li>DM3 &ndash; chimie <a href="fichiers/2016-2017/dm3_chimie.pdf">énoncé</a><a href="fichiers/2016-2017/dm3_chimie_corr.pdf">Corrigé</a>
+		</li>
+    <li>DM4 &ndash; Acceleromètre <a href="fichiers/2016-2017/dm4_accelerometre.pdf">Énoncé</a><a href="fichiers/2016-2017/dm4_accelerometre_corr.pdf">Corrigé</a>
+		</li>
+    <li>DS6 &ndash; Mécanique <a href="fichiers/2016-2017/ds6_mecanique.pdf">Énoncé</a><a href="fichiers/2016-2017/ds6_mecanique_corr.pdf">Corrigé</a>
+		</li>
+    <li>DM5 &ndash; Magnétisme <a href="fichiers/2016-2017/dm5_champ_magnetique.pdf">Énoncé</a><a href="fichiers/2016-2017/dm5_champ_magnetique_corr.pdf">Corrigé</a>
+		</li>
+    <li>DS7 &ndash; Induction <a href="fichiers/2016-2017/ds7_induction.pdf">Énoncé</a><a href="fichiers/2016-2017/ds7_induction_corr.pdf">Corrigé</a>
+    </li>
+    <li>DS8 &ndash; Thermodynamique et induction <a href="fichiers/2016-2017/ds8_thermo_induction.pdf">Énoncé</a><a href="fichiers/2016-2017/ds8_thermo_induction_corr.pdf">Corrigé</a>
+    </li>
+    <li>Concours blanc<a href="fichiers/2016-2017/concours_blanc.pdf">Énoncé</a><a href="fichiers/2016-2017/concours_blanc_corr.pdf">Corrigé</a>
+    </li>
+</ul>
+    </div>
+    
+    <!-- Devoirs de l'année courante -->
+
+	  <h3> 2017-2018</h3>
+    <ul>
+      <li>DS1 &ndash; Ondes <a href="fichiers/ds1_ondes.pdf">Énoncé</a><a href="fichiers/ds1_ondes_corr.pdf">Corrigé</a></li>
+      <li>DS2 &ndash; Ondes et optique géométrique <a href="fichiers/ds2_ondes_optique.pdf">Énoncé</a><a href="fichiers/ds2_ondes_optique_corr.pdf">Corrigé</a></li>
+      <li>DM1 &ndash; Optique et quantique <a href="fichiers/dm1_optique_quantique.pdf">Énoncé</a><a href="fichiers/dm1_optique_quantique_corr.pdf">Corrigé</a></li>
+      <li>DM2 &ndash; Électricité <a href="fichiers/dm2_electricite.pdf">Énoncé</a><a href="fichiers/dm2_electricite_corr.pdf">Corrigé</a></li>
+      <li>DS3 &ndash; Électricité <a href="fichiers/ds3_electricite.pdf">Énoncé</a><a href="fichiers/ds3_electricite_corr.pdf">Corrigé</a></li>
+      <li>DS4 &ndash; Électricité <a href="fichiers/ds4_electricite.pdf">Énoncé</a><a href="fichiers/ds4_electricite_corr.pdf">Corrigé</a></li>
+      <li>DM3 &ndash; Atomes et molécules <a href="fichiers/dm3_atomes_molecules.pdf">Énoncé</a><a href="fichiers/dm3_atomes_molecules_corr.pdf">Corrigé</a></li>
+    </ul>
+
+
+    <!-- Fin des devoirs -->
+
+	  <h2 id=TP> TP </h2>
+	  <ul>
+		<li>Les incertitudes dans les mesures physiques
+		  <a href="fichiers/Incertitudes.pdf">Énoncé</a>
+		</li>
+		<li>TP0 &ndash; Bases de l'électricité et incertitudes
+		  <a href="fichiers/tp0_bases_incertitudes.pdf">Énoncé</a>
+		</li>
+		<li>TP1 &ndash; Ondes
+		  <a href="fichiers/tp1_ondes.pdf">Énoncé</a>
+		</li>
+		<li>TP2 &ndash; Ondes et interférences
+		  <a href="fichiers/tp2_ondes_interferences.pdf">Énoncé</a>
+		</li>
+		<li>TP3 &ndash; Réflexion, réfraction
+		  <a href="fichiers/tp3_optique_geo_reflex_refrac.pdf">Énoncé</a>
+		</li>
+		<li>TP4 &ndash; Limites de l'optique géométrique
+		  <a href="fichiers/tp4_optique_geo_limites.pdf">Énoncé</a>
+		</li>
+		<li>TP5 &ndash; Lentilles minces
+		  <a href="fichiers/tp5_optique_geo_lentilles.pdf">Énoncé</a>
+		</li>
+		<li>TP6 &ndash; Lunette astronomique
+		  <a href="fichiers/tp6_optique_geo_lunette.pdf">Énoncé</a>
+		</li>
+		<li>TP7 &ndash; Le goniomètre
+		  <a href="fichiers/tp7_goniometre.pdf">Énoncé</a>
+		</li>
+		<li>TP8 &ndash; Résistances d'entrée et de sortie
+		  <a href="fichiers/tp8_resistances_entree_sortie.pdf">Énoncé</a>
+		</li>
+		<li>TP9 &ndash; Caractéristique d'un dipôle
+		  <a href="fichiers/tp9_caracteristique_capteur.pdf">Énoncé</a>
+		</li>
+		<li>TP10 &ndash; Charge d'un condensateur
+		  <a href="fichiers/tp10_transitoire_prem_ordre.pdf">Énoncé</a>
+		</li>
+		<li>TP11 &ndash; Oscillateur harmonique amorti
+		  <a href="fichiers/tp11_transitoire_deux_ordre.pdf">Énoncé</a>
+		</li>
+		<li>TP12 &ndash; Impédance électrique d'un haut-parleur
+		  <a href="fichiers/tp12_haut_parleur.pdf">Énoncé</a>
+		</li>
+		<li>TP13 &ndash; Filtrage
+		  <a href="fichiers/tp13_filtrage.pdf">Énoncé</a>
+		</li>
+		<li>TP14 &ndash; Analyse spectrale
+		  <a href="fichiers/tp14_filtrage_spectre.pdf">Énoncé</a>
+		</li>
+		<li>TP15 &ndash; Un petit dosage
+		  <a href="fichiers/tp15a_materiel_chimie.pdf">Énoncé</a>
+		</li>
+		<li>TP16 &ndash; Dosage d'une solution d'ammoniac par conductimétrie
+		  <a href="fichiers/tp15b_dosage_conductimetrie.pdf">Énoncé</a>
+		</li>
+		<li>TP17 &ndash; Déterminer une constante d'équilibre
+		  <a href="fichiers/tp15_constante_equilibre.pdf">Énoncé</a>
+		</li>
+		<li>TP18 &ndash; Influence de la concentration sur la vitesse de réaction
+		  <a href="fichiers/tp16_cinetique1.pdf">Énoncé</a>
+		</li>
+		<li>TP19 &ndash; Détermination d'un ordre partiel
+		  <a href="fichiers/tp17_cinetique2.pdf">Énoncé</a>
+		</li>
+		<li>TP20 &ndash; Dosage en retour de la vitamine C
+		  <a href="fichiers/tp20_dosage_vitamineC.pdf">Énoncé</a>
+		</li>
+		<li>TP21 &ndash; Analyse de mouvements
+		  <a href="fichiers/tp18_meca_analyse_mvt.pdf">Énoncé</a>
+		</li>
+		<li>TP22 &ndash; Mesure de frottements solides
+		  <a href="fichiers/tp20_frottements_solides.pdf">Énoncé</a>
+		</li>
+		<li>TP23 &ndash; Étude du pendule simple
+		  <a href="fichiers/tp21_pendule.pdf">Énoncé</a>
+		</li>
+		<li>TP24 &ndash; Champ magnétique terrestre
+		  <a href="fichiers/tp22_champ_mag_terre.pdf">Énoncé</a>
+		</li>
+		<li>TP25 &ndash; Loi de Faraday
+		  <a href="fichiers/tp23_faraday.pdf">Énoncé</a>
+		</li>
+		<li>TP26 &ndash; Inductance propre d'une bobine
+		  <a href="fichiers/tp24_inductance_bobine.pdf">Énoncé</a>
+		</li>
+		<li>TP27 &ndash; Étude énergétique d'un moteur à courant continu
+		  <a href="fichiers/tp25_rendement_moteur.pdf">Énoncé</a>
+		</li>
+		<li>TP28 &ndash; Équation d'état des gaz parfaits
+		  <a href="fichiers/tp28_gaz_parfait.pdf">Énoncé</a>
+		</li>
+	  </ul>
+	  <h2 id=Info> Informatique </h2>
+    <p>Télécharger le <a href=fichiers/info/memento_python.pdf>mémento</a> Python.</p>
+    <h3> Première année </h3>
+    <h4> Cours </h4>
+    <ul>
+    <li> Voir le cours <a href=http://nbviewer.jupyter.org/url/tsi-troyes-physique.bitballoon.com/info/info_TSI1.ipynb>en ligne</a>
+	  </li>
+	  <li> Cours sur les <a href="fichiers/info/bdd.pdf">bases de données</a></li>
+<li> Fichiers de base de données : <a href="fichiers/info/presidentielles.db">presidentielles.db</a> <a href="fichiers/info/notes.db">notes.db</a></li>
+    </ul>
+
+
+<!--
+	  <h4> TP </h4>
+	  <ul>
+		<li>TP2 : Représentation des nombres et variables
+		  <a href="fichiers/info/tp2_representation.pdf">Énoncé</a>
+		</li>
+    <li>TP4 : Incertitude sur des mesures physiques
+		  <a href="fichiers/info/tp4_incertitude_mesures.pdf">Énoncé</a>
+		</li>
+    <li>TP6 : Turtle
+		  <a href="fichiers/info/tp6_turtle.pdf">Énoncé</a>
+		</li>
+    <li>TP8 : Encore turtle
+		  <a href="fichiers/info/tp8_turtle2.pdf">Énoncé</a>
+		</li>
+    <li>TP10 : La méthode d'Euler
+		  <a href="fichiers/info/tp10_euler.pdf">Énoncé</a>
+		</li>
+    <li>TP11 : Balistique
+		  <a href="fichiers/info/tp11_anumerique.pdf">Énoncé</a>
+		</li>
+
+		</ul>
+-->
+<p>		Une partie des TP de première année sont <a href=http://alicenolot.free.fr/index.php?p=info> ici </a></p>
+
+
+<h4> Devoirs </h4>
+<ul>
+  <li>DS1 <a href=fichiers/info/ds1_sup.pdf>Énoncé</a> <a href=fichiers/info/ds1_sup_corr.pdf>Corrigé</a>
+  <li>DS2 <a href=fichiers/info/ds2_sup.pdf>Énoncé</a> <a href=fichiers/info/ds2_sup_corr.pdf>Corrigé</a>
+</ul>
+
+
+    <h3> Deuxième année </h3>
+    
+    <h4>	Cours  </h4>
+    <p> Voir le cours <a href=http://nbviewer.jupyter.org/url/tsi-troyes-physique.bitballoon.com/info/info_TSI2.ipynb>en ligne</a>
+
+    <h4>Devoirs</h4>
+    <ul>
+      <li>DS1 &ndash; Gains en bourse <a href="fichiers/info/ds1_spe.pdf">Énoncé</a><a href="fichiers/info/ds1_spe_corr.pdf">Corrigé</a></li>
+      <li>DS1-bis &ndash; Petits problèmes <a href="fichiers/info/ds1-bis_spe.pdf">Énoncé</a><a href="fichiers/info/ds1-bis_spe_corr.pdf">Corrigé</a></li>
+    </ul>
+
+    <h4> TP </h4>
+    <ul>
+    <li>Chiffre de Vigenère
+		  <a href="fichiers/info/tp_vigenere.pdf">Énoncé</a> 
+		  <a href="fichiers/info/secret.txt">Texte à déchiffrer</a> 
+		  <a href="fichiers/info/miserables.txt">Les misérables</a> 
+      <a href="fichiers/info/tp_vigenere.py">corrigé</a>
+
+		</li>
+    <!--
+    <li>Stéganographie
+		  <a href="fichiers/info/tp_steganographie.pdf">Énoncé</a>
+		</li>
+    <li>Élection présidentielle
+		  <a href="fichiers/info/tp_bdd_pres2017.pdf">Énoncé</a>
+		  <a href="fichiers/info/presidentielles.db">presidentielles.db</a>
+		</li>
+    -->
+    </ul>
+<h3>Challenge</h3>
+  <p>Participez au <a href='http://tsitroyes.pythonanywhere.com/'>challenge informatique !</a></p>
+
+	</section>
+	<footer>
+	  <p>Dernière mise à jour : 19/01/2018</p>
+	</footer>
+  </body>
+  <script type="text/javascript">
+$('.collapsed-list > h3').click(function() {
+$(this).parent().toggleClass('collapsed-list');
+})
+</script>
+</html>
