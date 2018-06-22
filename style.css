@@ -6,7 +6,7 @@
  --color5:#3F282F
 }
 body {
- background-image:url(/images/67927640eba753e1874c0e6e8cd76b5fe724741c/bg.png);
+ background-image:url(/images/bg.png);
  background-repeat:repeat;
  color:var(--color5);
  font-size:.9em;
