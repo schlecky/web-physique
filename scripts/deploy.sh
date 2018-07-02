@@ -5,4 +5,5 @@ cat index.html | sed -e "s;<p>Dernière mise à jour : .*<\/p>;<p>Dernière mise
 mv temp.html index.html
 cp -Lr fichiers_liens/* fichiers/
 cp -Lr info_liens/* info/
-netlify deploy
+#netlify deploy
+git commit -a
