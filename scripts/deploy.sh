@@ -7,3 +7,4 @@ cp -Lr fichiers_liens/* fichiers/
 cp -Lr info_liens/* info/
 #netlify deploy
 git commit -a
+git push
