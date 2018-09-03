@@ -6,5 +6,5 @@ mv temp.html index.html
 cp -Lr fichiers_liens/* fichiers/
 cp -Lr info_liens/* info/
 #netlify deploy
-git commit -a
+git commit -a -m $(date +%d/%m/%Y)
 git push
