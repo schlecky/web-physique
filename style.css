@@ -139,6 +139,14 @@ a[href$=".py"]:before {
  padding-right:3px;
  vertical-align:middle
 }
+a[href$=".swf"]:before {
+ font-family:FontAwesome;
+ content:"\f085";
+ display:inline-block;
+ padding-right:3px;
+ vertical-align:middle
+}
+
 i.fa {
  padding-right:5px
 }
