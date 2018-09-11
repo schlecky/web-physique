@@ -3,10 +3,11 @@
  --color2:#9C908C;
  --color3:#C1613E;
  --color4:#5B5E5E;
- --color5:#3F282F
+ --color5:#3F282F;
 }*/
+
 :root {
- --color1:#F4FFF8; /*Fond clair */
+ --color1:#F6F6F8; /*Fond clair */
  --color2:#4D5061; /*fond titre 1*/
  --color3:#011638; /*fond titre 2*/
  --color4:#4C5B61; /*ombre*/
@@ -89,7 +90,7 @@ section {
 }
 a {
  margin:0;
- padding:2px 5px;
+ padding:2px 2px;
  border-radius:3px;
  border:0;
  font-size:100%;
@@ -129,14 +130,17 @@ ol.chapitres span{
 }
 
 li {
- margin-top:15px;
+ margin-top:5px;
  margin-left:0;
- padding-left:0
+ padding-left:0;
+ color:var(--color5);
 }
+
 li>a {
- margin-left:10px;
+ margin-left:0px;
  border-radius:3px
 }
+/*
 a[href^=http]:before {
  font-family:FontAwesome;
  content:"\f0c1";
@@ -165,9 +169,11 @@ a[href$=".swf"]:before {
  padding-right:3px;
  vertical-align:middle
 }
-
-i.fa {
- padding-right:5px
+*/
+i.fas,i.fab {
+ padding-right:3px;
+  margin-left:5px;
+   
 }
 #filler {
  width:10%;
@@ -221,13 +227,31 @@ div.positioner {
  vertical-align:middle;
 }
 
+
+ol.chapitres h3{
+  font-size:16px;
+  font-weight:inherit;
+  padding:0px;
+  margin-left:0px;
+}
+
+ol.chapitres >li>div{
+  /*border-left: solid 3px;*/
+  margin-left:5px;
+  color:var(--color6);
+  opacity:1;
+  margin-bottom:15px;
+  font-size:12px;
+}
+
 div.documents, div.ressources{
   margin-top:5px;
-  margin-left:10px;
+  margin-left:0px;
+  /*! font-size:small; */
 }
 
 div.documents{
-
+  font-size:14px;
 }
 
 div.ressources{
