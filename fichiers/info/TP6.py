@@ -1,0 +1,2 @@
+alph = "abcdefghijklmnopqrstuvwxyz"
+ALPH = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
