@@ -1,0 +1,165 @@
+#graph{
+  margin:auto;
+  display:inline-block;
+  padding:20px;
+  border:solid #999 1px;
+  padding:0px;
+  width:600px;
+  background-color:white;
+}
+
+#panneauDroite{
+  display:inline-block;
+  vertical-align: top;
+  width:100px;
+  margin:0 20px;
+}
+
+#tableDiv{
+  position:relative;
+  margin-top:40px;
+
+}
+
+#tableDiv table{
+  border-collapse: collapse;
+  border:solid #333 1px;
+  width:100%
+}
+
+#contenu{
+  padding:30px 50px;;
+}
+
+#tableDiv thead{
+  position: absolute;
+  top:-20px;
+  left:0px;
+  width: 200px;
+}
+#tableDiv thead th{
+  width:100px;
+}
+
+#tableScroll{
+  margin-top:20px;
+  width:200px;
+  max-height:450px;
+  overflow:auto;
+}
+
+
+
+#tableDiv td{
+  width:70px;
+  margin:0px;
+  padding:3px 10px;
+}
+
+th{
+  background:#333;
+  color:#EEE;
+}
+
+td{
+  text-align:right;
+  border:solid #333 1px;
+  background:white;
+}
+
+
+body{
+  width:100%;
+  margin:0;
+  background-color:#444444;
+}
+
+section{
+  background-color:#f0f0f0;
+  padding:0;
+  width: 100%;
+  margin: 0;
+}
+
+h1{
+  /*! border-bottom:solid #999 1px; */
+  /*! border-top:solid #999 1px; */
+  width: 100%;
+  text-align:center;
+  font-size: 40px;
+  margin:0px;
+  background: #757575;
+  /*! height: 100px; */
+  vertical-align: middle;
+  color: #F7F7F7;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+#control{
+  width:200px;
+  margin-bottom:20px;
+}
+
+#control input{
+  display:inline-block;
+  width:40px;
+  margin-left:0px;
+  height:12px;
+}
+
+#pas span{
+ display: inline-block;
+}
+
+
+.grille{
+  stroke:#DDD;
+}
+
+.axe{
+  stroke:#000;
+}
+
+.point{
+  fill:#5252B9;
+}
+
+#pointAnim{
+  fill:#F00;
+  stroke:#f00;
+  
+  fill-opacity: 0.2;
+}
+
+.tangente{
+  stroke:#F5B464;
+  stroke-width:2px;
+  
+}
+
+button{
+  margin:5px auto;
+  display:inline;
+  width:80px;
+  vertical-align:middle;
+  text-align:center;
+}
+
+#solExacte{
+  stroke:#8e95c8;
+  stroke-width:1px;
+  fill:none;
+}
+
+#reinitialiser{
+  display:block;
+  width:100px
+}
+
+.txtSolExacte{
+  fill: #8e95c8;
+  font-family: "Linux Libertine";
+}
