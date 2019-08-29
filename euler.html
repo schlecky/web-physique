@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+<title>Méthode d'Euler</title>
+<meta charset="utf-8">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="svg.min.js"></script>
+<!--<script type="text/javascript" src="MathJax/MathJax.js?config=TeX-MML-AM_CHTML-full"></script>-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+  <script type="text/javascript">
+  var draw;
+  var fleche;
+  var hSvg = 600;
+  var lSvg = 600;
+
+  var xGraph = 30;
+  var yGraph = 30;
+  var lGraph = 500;
+  var hGraph = 500;
+
+  var xMin = 0;
+  var xMax = 6;
+  var yMin = 0;
+  var yMax = 10;
+
+  var x0 = 0;
+  var y0 = 10;
+  var points = []
+  var pointCircles;
+  var pointAnim;
+  var ptAnimRMax = 30;
+
+  var dxGrille = 1;
+  var dyGrille = 1;
+
+  var dPoint=6;
+  var rPoint=dPoint/2;
+
+  var lTangente = 3;
+
+  var tangente;
+
+
+  function fp(y,x){
+    return -y
+  }
+
+  function f(x){
+    return 10*Math.exp(-x)
+  }
+
+  function loaded(){
+    draw = SVG("graph").size(lSvg, hSvg).attr({id:'svgGraph'});
+    fleche = draw.marker(10,10, function(add){
+      add.polygon('5,5 0,0 10,5 0,10').fill('black');
+    })
+    drawFondGraph();
+    var x,y;
+    pointCircles = [];
+    tangente = draw.line().stroke({ width: 1}).attr({'class':'tangente'});
+    pointAnim = draw.circle().attr({'opacity':'0', 'id':'pointAnim'});
+    creeSolExacte();
+    ajoutePoint(x0, y0);
+  }
+
+  function effaceTangente(){
+    tangente.opacity(0);
+  }
+  
+  function drawTangente(x,y){
+    vfp = fp(y,x);
+    if(vfp>=0){
+      x1 = Math.max(xMin, x-(y-yMin)/vfp);
+      x2 = Math.min(xMax, x+(yMax-y)/vfp);
+    }
+    else{
+      x1 = Math.max(xMin, x+(yMax-y)/vfp);
+      x2 = Math.min(xMax, x-(y-yMin)/vfp);
+    }
+    y1 = y-(x-x1)*fp(y,x);
+    y2 = y+(x2-x)*fp(y,x);
+    p1 = coordToScreen([x1,y1]);
+    p2 = coordToScreen([x2,y2]);
+    tangente.opacity(1);
+    tangente.animate(200,'<>',0).plot(p1[0], p1[1], p2[0], p2[1]);
+  }
+  
+  function creeSolExacte(){
+    pas = 0.1;
+    points = [];
+    x=xMin;
+    while(x<=xMax){
+      points.push(coordToScreen([x, f(x)]))
+      x+=pas;
+    }
+    var solExacte = draw.polyline(points).attr({'id':'solExacte'});
+    var path = "M"+points[0][0]+" "+points[0][1]+" ";
+    for(i=1; i<points.length; i++){
+      path = path+"L"+points[i][0]+" "+points[i][1]+" ";
+    }
+    var text = draw.text(function(add) {
+      add.tspan('Solution exacte').addClass('txtSolExacte').dy(-10);
+    })
+    text.path(path);
+    text.textPath().attr({'startOffset':'50%'});
+  }
+
+  function reinitialiser(){
+   points = [];
+   for(i=0; i<pointCircles.length; i++){
+    pointCircles[i].remove();
+   }
+   pointsCircles = [];
+   var rows = document.getElementById("tableValeurs").getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+
+    while(rows.length>0){
+      rows[0].remove();
+   }
+   ajoutePoint(x0, y0);
+   effaceTangente();
+  }
+
+  function ajoutePoint(x0,y0){
+    [x,y] = coordToScreen([x0, y0]);
+    points.push([x0, y0]);
+    pointCircles.push(draw.circle(dPoint).move(x-rPoint,y-rPoint).attr({'class':'point', 'opacity':'0'}));
+    pointAnim.attr({'cx':x, 'cy':y, 'opacity':1, 'r':0});
+    pointAnim.animate(200, '<', 200).attr({'r':ptAnimRMax, opacity:'0'});
+    pointCircles[pointCircles.length-1].animate(400,'<>',200).attr({'opacity':1});
+    var table = document.getElementById("tableValeurs").getElementsByTagName('tbody')[0];
+    var row = table.insertRow(-1);
+    var cellX = row.insertCell(0);
+    var cellY = row.insertCell(1);
+    cellX.innerHTML = x0.toFixed(2);
+    cellY.innerHTML = y0.toFixed(2);
+    var objDiv = document.getElementById("tableScroll");
+    objDiv.scrollTop = objDiv.scrollHeight;
+  }
+
+  function pointSuivant(){
+   var x1, y1, x2, y2;
+   [x1,y1] = points[points.length-1]; 
+   pas = parseFloat(document.getElementById("pas").value)
+   x2 = x1 + pas;
+   y2 = y1 + pas*fp(y1, x1);
+   drawTangente(x1,y1);
+   ajoutePoint(x2,y2);
+ }
+  
+  function drawFondGraph(){
+    draw.rect(lGraph, hGraph).move(xGraph, yGraph).fill("#FFF");
+    x = xMin;
+    y = yMin;
+    while (x<=xMax){
+        var x1, y1, x2, y2;
+        [x1, y1] = coordToScreen([x,yMin]);
+        [x2, y2] = coordToScreen([x,yMax]);
+        draw.line(x1,y1,x2,y2).attr({'class':'grille'});
+        draw.line(x1,y1,x1,y1-5).attr({'class':'axe'});
+        draw.plain(x).font({anchor:'middle'}).move(x1, y1+10);
+        x += dxGrille;
+    }
+    while (y<=yMax){
+        var x1, y1, x2, y2;
+        [x1, y1] = coordToScreen([xMin,y]);
+        [x2, y2] = coordToScreen([xMax,y]);
+        draw.line(x1,y1,x2,y2).attr({'class':'grille'});
+        draw.line(x1,y2,x1+5,y2).attr({'class':'axe'});
+        draw.plain(y).font({anchor:'end'}).move(x1-5, y2-5);
+        y += dyGrille;
+    }
+
+    // Dessine les axes
+    draw.line(xGraph, yGraph+hGraph, xGraph+lGraph+10, yGraph+hGraph).attr({'class':'axe'}).marker('end', fleche);
+    x = xMin;
+    draw.line(xGraph, yGraph+hGraph, xGraph, yGraph-10).attr({'class':'axe'}).marker('end', fleche.rotate(90));
+  }
+
+  function coordToScreen(point){
+    var x = point[0]
+    var y = point[1]
+    scaleX = lGraph/(xMax - xMin)
+    scaleY = -hGraph/(yMax - yMin)
+    return [xGraph + (x-xMin)*scaleX,yGraph+hGraph + (y-yMin)*scaleY]  
+  }
+  </script>
+</head>
+
+<body onload='loaded();'>
+  <section>
+  <h1>Méthode d'Euler</h1>
+  <div id="contenu">
+  <p>Résolution de l'équation  : \(y'=-y\) avec \(y(0) = 10\)</p>
+  <div id='graph'></div>
+  <div id='panneauDroite'>
+    <div id='control'>
+      <button onclick="reinitialiser()" id="reinitialiser">Réinitialiser</button>
+      <span>Pas : </span><input id="pas" type='number' value="0.2" step="0.05" min=0.05 max=1>
+      <button onclick="pointSuivant()">Point suivant</button>
+    </div>
+    <div id='tableDiv'>
+      <div id="tableScroll">
+      <table id="tableValeurs">
+      <thead><tr><th>\(x\)</th> <th>\(y\)</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    </div>
+    </div>
+  </div>
+  </div>
+  </section>
+</body>
