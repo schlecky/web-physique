@@ -181,37 +181,7 @@ i.fas,i.fab {
  min-width:50px;
  display:inline-block
 }
-#menu {
- position:fixed;
- top:20px;
- margin:0;
- background-color:var(--color1);
- list-style:none;
- border:solid 1px;
- margin-left:0;
- border-radius:0 5px 5px 0;
- border-color:#000 #000 #000 var(--color1)
-}
-#menu a {
- display:block;
- border-radius:0;
- padding:3px 10px 3px 10px;
- text-align:center;
- margin:0
-}
-#menu li:first-child a {
- border-radius:0 4px 0 0
-}
-#menu li:last-child a {
- border-radius:0 0 4px 0
-}
-#menu li {
- margin:0
-}
-div.positioner {
- position:absolute;
- right:0
-}
+
 .collapsed-list ul {
  display:none
 }
