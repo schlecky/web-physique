@@ -4438,3 +4438,24 @@ i.fas, i.fab {
 .lignes span:after {
   left: 100%;
   margin-left: 15px; }
+
+.is-bg-signaux {
+  background-color: #2a4469; }
+
+.is-bg-archi {
+  background-color: #2a4469; }
+
+.is-bg-meca {
+  background-color: #2a4469; }
+
+.is-bg-thermo {
+  background-color: #2a4469; }
+
+.is-bg-chimie {
+  background-color: #2a4469; }
+
+.is-bg-induc {
+  background-color: #2a4469; }
+
+.is-bg-transfo {
+  background-color: #2a4469; }
